@@ -46,4 +46,4 @@ cat ~/mining-boot.log
 \`\`\`
 
 ---
-## ✨ Selamat menambang VRSC ❤️
+## ✨ Selamat menambang VRSC i ❤️ harini
