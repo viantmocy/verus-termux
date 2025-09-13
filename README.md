@@ -11,11 +11,20 @@ Repo ini dibuat untuk memudahkan setup mining **VerusCoin (VRSC)** di Android me
 
 ---
 ## 🚀 Cara Install
-\`\`\`bash
+Buka Termux
+ Ketik 
 pkg install git -y
 git clone https://github.com/viantmocy/verus-termux.git
-cd verus-termux
-bash install.sh
+tekan enter
+
+ketik
+cd ./verus-termux
+tekan enter
+ketik
+ ./install.sh
+enter
+
+tunggu dan tekan Y terus Enter setiap ada prompt di Termux biasanya 2-3 kali
 \`\`\`
 
 ---
