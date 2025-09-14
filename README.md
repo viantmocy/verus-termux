@@ -23,7 +23,19 @@ Sebelum mulai, pastikan kamu sudah menginstall:
 Buka Termux, lalu jalankan perintah berikut satu per satu:
 
 ```bash
+## 🚀 Cara Install
+
+Buka **Termux**, lalu jalankan perintah berikut satu per satu:
+
+```bash
+pkg update -y && pkg upgrade -y
 pkg install git -y
+
 git clone https://github.com/viantmocy/verus-termux.git
-cd verus-termux
+cd verus-termux/ccminer
+
+chmod +x install.sh
 ./install.sh
+
+# Setelah selesai, jalankan miner dengan:
+./start.sh
