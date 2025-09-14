@@ -1,2 +1,2 @@
 #!/bin/sh
-~verus-termux/ccminer/ccminer -c ~verus-termux/ccminer/config.json
+./ccminer -c config.json
