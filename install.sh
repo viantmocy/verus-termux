@@ -1,3 +1,5 @@
+cd ~/verus-termux
+cat > install.sh << 'EOF'
 #!/bin/bash
 # VerusCoin Miner Installer for Termux ARM64
 # Repo: viantmocy/verus-termux
@@ -28,3 +30,6 @@ bash termux-boot-setup.sh
 echo "[*] Install selesai!"
 echo "Silakan edit wallet di ~/ccminer/config.json lalu reboot HP."
 echo "Contoh edit: nano ~/ccminer/config.json"
+EOF
+
+chmod +x install.sh
