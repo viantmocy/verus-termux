@@ -33,3 +33,4 @@ echo "Contoh edit: nano ~/ccminer/config.json"
 EOF
 
 chmod +x install.sh
+cd ~/verus-termux/ccminer
