@@ -1,5 +1,3 @@
-cd ~/verus-termux
-cat > install.sh << 'EOF'
 #!/bin/bash
 # VerusCoin Miner Installer for Termux ARM64
 # Repo: viantmocy/verus-termux
@@ -70,7 +68,3 @@ echo -e "${YELLOW}nano ~/ccminer/config.json${RESET}"
 echo ""
 echo -e "${CYAN}Untuk mulai mining jalankan perintah:${RESET}"
 echo -e "${GREEN}./start.sh${RESET}"
-EOF
-
-chmod +x install.sh
-cd ~/verus-termux/ccminer
