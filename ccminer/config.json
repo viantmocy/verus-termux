@@ -2,11 +2,20 @@
   "algo": "verus",
   "threads": 8,
   "cpu-affinity": "0xFF",
+  "cpu-priority": 1,
+  "statsavg": 30,
+  "quiet": true,
   "pools": [
     {
-      "url": "stratum+tcp://pool.verus.io:9998",
-      "user": "RWcMnQJ12z8TYiaQVg8BARTwcvLGQq59ib.mwekS20FE",
+      "url": "stratum+tcp://ap.luckpool.net:3956",
+      "user": "RWcMnQJ12z8TYiaQVg8BARTwcvLGQq59ib",
       "pass": "c=VRSC"
     }
   ]
 }
+
+
+
+
+
+
